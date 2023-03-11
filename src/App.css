@@ -1,0 +1,25 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+ 
+}
+
+.listmenu{
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-radius: 5px;
+  
+}
+
+.listmenu:hover { 
+  border-bottom: 3px solid yellowgreen ;
+  color : #fff ;
+  background-color: black;
+  transition: all 400ms ease-in-out;
+}
+
+.listsub {
+  transition: all 900ms ease-in-out;
+}
